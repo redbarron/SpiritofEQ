@@ -1,0 +1,11 @@
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron"><a name="home"></a>
+      <div class="container"> <!-- search code goes here if I decide to add it -->
+	<div class="row">
+        <span class="pull-right"><img src="Images/spiritofeq_logo_med.gif" class="img-responsive" hspace="20" vspace="10" /></span>
+        <p>What is driving your personal and/or professional life? Do you know your destination? If you don’t know where you are going or how to make the trip, you may not get there. . .<br>
+          <br>
+          <span class="btn-primary">Spirit of EQ can help with that journey!</span></p>
+	 </div> <!-- close row -->
+      </div> <!-- close container -->
+  </div> <!-- close jumbotron -->
