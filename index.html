@@ -11,6 +11,33 @@
 
     <title>Spirit of EQ</title>
 
+	<!-- fixed, responsive background image css code -->
+
+<style type="text/css">
+<!--
+img.bg {
+/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+
+/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+			
+/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+		
+@media screen and (max-width: 1024px){
+	img.bg {
+	left: 50%;
+	margin-left: -512px; }
+}
+-->
+</style>
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -25,10 +52,12 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
   </head>
 
   <body>
-
+	<img src="images/RTN_BG_50.jpg" class="bg" />
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -59,18 +88,18 @@
         </div><!--/.navbar-collapse -->
       </div>
     </div>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron"><a name="home"></a>
-      <div class="container"> <!-- search code goes here -->
-	<div class="row">
+<!-- top div row -->
+    <div class="container">
+     <div class="row">
+        <div class="col-md-12">
+	<h1>Welcome to the Spirit of EQ!</h1>
         <span class="pull-right"><img src="Images/spiritofeq_logo_med.gif" class="img-responsive" hspace="20" vspace="10" /></span>
-        <p>What is driving your personal and/or professional life? Do you know your destination? If you don’t know where you are going or how to make the trip, you may not get there. . .<br>
+        <h3>What is driving your personal and/or professional life? Do you know your destination? If you don’t know where you are going or how to make the trip, you may not get there. . .<br>
           <br>
-          <span class="btn-primary">Spirit of EQ can help with that journey!</span></p>
-	 </div> <!-- close row -->
-      </div> <!-- close container -->
-  </div> <!-- close jumbotron -->
+          <span class="btn-primary">Spirit of EQ can help with that journey!</span></h3>
+	</div> <!-- close the columns -->
+     </div> <!-- close the row -->
+    </div> <!-- close the container -->
 
     <div class="container">
      <div class="row">
